@@ -1,0 +1,38 @@
+@font-face{
+    font-family: ;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#container-textarea {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+textarea {
+    background-color: rgb(219, 212, 212);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="submit"]{
+    width: 100px;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: 20px;
+}
