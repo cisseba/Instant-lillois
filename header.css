@@ -11,7 +11,6 @@ header{
 
     background-color: black;
     padding: 20px;
-    margin-bottom: 20px;
 
 }
 
@@ -38,7 +37,6 @@ header{
     height: 27px;
     border-radius: 15px;
     padding: 5px 15px;
-    
 
 }
 
@@ -50,7 +48,7 @@ header{
     color: white;
     font-family: IBMPmedium;
     position: relative;
-   top: 10px;
+   top: 20px;
    
    
 
@@ -78,14 +76,4 @@ a:hover{
 
 a{
     text-decoration: none;
-}
-
-.e{
-    background-color: white;
-    
-}
-
-#photo-accueil{
-
-    margin-bottom: 30;
 }
