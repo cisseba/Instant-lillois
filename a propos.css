@@ -1,13 +1,16 @@
 @font-face{
-    font-family: ;
+    font-family: ibmpmedium;
+    src: url(/IBMPlexSans-Medium.ttf);
 }
 
 
 h1 {
+    font-family: ibmpmedium;
     text-align: center;
 }
 
 p {
+    font-family: ibmpmedium;
     text-align: center;
 }
 
