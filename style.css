@@ -1,7 +1,17 @@
+@font-face{
+    font-family: IBMPmedium;
+    src: url(/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+    font-family: IBMPbold;
+    src: url(/IBMPlexSans-Bold.ttf);
+}
+
 header{
 
     background-color: black;
     padding: 20px;
+
 }
 
 
@@ -10,16 +20,45 @@ header{
     display: flex;
      justify-content: space-between;
      align-items: center;
-   
  }
 
-.menu{
+.recherche{
 
     display: flex;
     justify-content: center;
 
 }
 
+
+.recherche input{
+
+
+    width: 500px;
+    height: 27px;
+    border-radius: 15px;
+    padding: 5px 15px;
+
+}
+
+
+.menu{
+
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: IBMPmedium;
+    position: relative;
+   top: 20px;
+   
+   
+
+
+}
+a:visited{color: white;
+}
+a:hover{
+    color: #CF4A6A;
+}
 .emplacement-vide{
     width: 50px;
     height: 50px;
@@ -28,10 +67,11 @@ header{
 #connexion{
     background: #CF4A6A;
     color:black;
-    padding:  5px 20px;
+    padding:  2px 15px;
     border-radius: 20px;
     position: relative;
-    bottom: 20px;
+    bottom: 15px;
+    font-family: IBMPbold;
 }
 
 a{
