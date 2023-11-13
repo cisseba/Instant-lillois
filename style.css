@@ -54,6 +54,15 @@ header{
    
 }
 
+#rb:hover{color: #CF4A6A;}
+#al:hover{color: #CF4A6A;}
+#t:hover{color: #CF4A6A;}
+#lm:hover{color: #CF4A6A;}
+
+#rb{ color: white;}
+#al{color: white;}
+#t{color: white;}
+#lm{color: white;}
 
 a:visited{color: white;
 }
