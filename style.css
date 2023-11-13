@@ -51,11 +51,13 @@ header{
     font-family: IBMPmedium;
     position: relative;
    top: 10px;
-   
-   
-
-
 }
+
+#rb{ color: white;}
+#al{color: white;}
+#t{color: white;}
+#lm{color: white;}
+
 a:visited{color: white;
 }
 a:hover{
