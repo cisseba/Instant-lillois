@@ -18,14 +18,20 @@
     border-radius: 100px;
 }
 
-.resto-cat-1{
+/* .resto-cat-1{
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
-.nom-cat{
+/* .nom-cat{
 
     display: flex;
     justify-content: space-evenly;
     font-family: IBMPmedium;
+} */
+
+#cat-it{
+
+
+
 }
