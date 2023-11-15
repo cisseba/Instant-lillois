@@ -1,0 +1,37 @@
+@font-face{
+    font-family:IBMPmedium;
+    src: url(/IBMPlexSans-Medium.ttf);
+}
+
+#p-italien{
+    border-radius: 100px;
+}
+#p-gourmet{
+    border-radius: 100px;
+}
+
+#p-local{
+    border-radius: 100px;
+}
+
+#p-fastfood{
+    border-radius: 100px;
+}
+
+/* .resto-cat-1{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/* .nom-cat{
+
+    display: flex;
+    justify-content: space-evenly;
+    font-family: IBMPmedium;
+} */
+
+#cat-it{
+
+
+
+}

@@ -1,0 +1,155 @@
+/* police */
+@font-face{
+    font-family: IBMPmedium;
+    src: url(/IBMPlexSans-Medium.ttf);
+}
+@font-face {
+    font-family: IBMPbold;
+    src: url(/IBMPlexSans-Bold.ttf);
+}
+
+/* Header  */
+header{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.recherche{
+    display: flex;
+    justify-content: center;
+}
+
+
+.recherche input{
+    min-width: 400px;
+    height: 27px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: IBMPmedium;
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#rb:hover{color: #CF4A6A;}
+#al:hover{color: #CF4A6A;}
+#t:hover{color: #CF4A6A;}
+#lm:hover{color: #CF4A6A;}
+
+#rb{ color: white;}
+#al{color: white;}
+#t{color: white;}
+#lm{color: white;}
+
+a:visited{color: white;
+}
+a:hover{
+    color: #CF4A6A;
+}
+.emplacement-vide{
+    width: 80px;
+    height: 50px;
+}
+
+#connexion{
+    background: #CF4A6A;
+    color:black;
+    padding: 2px 10px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 15px;
+    font-family: IBMPbold;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.e{
+    background-color: white;
+    
+}
+
+/* photo accueil  */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner-container {
+    position: relative;
+       
+        max-width: 1150px;
+        max-height: 800px; 
+        overflow: hidden;
+        margin: auto;
+        
+    }
+
+    .banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* margin-top: 2px; */
+    border-radius: 3%;
+    }
+.actu img{
+
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 5px black; */
+    border: 1.5px solid black;
+}
+
+.actu img:hover{
+    transform: scale(1.015);
+    box-shadow: 3px 3px 5px black;
+}
+.actu h3 {
+
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: IBMPbold;
+    color: #CF4A6A;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.actu h5{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-family: IBMPbold;
+}
+
+.actu p {
+    margin-left: 23px;
+    font-family: IBMPmedium;
+
+}
