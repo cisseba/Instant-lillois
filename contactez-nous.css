@@ -3,6 +3,9 @@
     src: url(/IBMPlexSans-Medium.ttf);
 }
 
+body{
+    background-color: #EBE8E4;
+}
 
 h1 {
     font-family: ibmpmedium;
@@ -48,11 +51,36 @@ i{
    margin: 0 20px;
 }
 
-.sommairefooter a{
+.sommaire{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sommaire a{
+    color: white;
+    text-decoration: none;
+    
+}
+/* .sommairefooter a{
     color: white;
     text-decoration: none;
     display: flex; justify-content: start;
 }
+
+.sommaire2 a{
+    color: white;
+    text-decoration: none;
+    display: flex; justify-content: center;
+}
+
+.sommaire3 a{
+    color: white;
+    text-decoration: none;
+    display: flex; justify-content: end;
+} */
 
 #acc{
     color:#CED0CE;
@@ -61,6 +89,39 @@ i{
     color: #CF4A6A;
 }
 
+#MOC{
+    color:#CED0CE;
+}
+#MOC:hover{
+    color: #CF4A6A;
+}
+
 .icone a{
     color: white;
 } 
+
+.noiricone a{
+    color: black;
+}
+
+#ic-noir:hover{
+    scale: 1.2;
+}
+
+#ic-blanc:hover{
+    scale: 1.2;
+}
+
+.pays{
+    color: white;
+    text-decoration: none;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: left;
+}
+
+.logo-container{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+ }
