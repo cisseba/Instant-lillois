@@ -1,11 +1,11 @@
 @font-face{
     font-family:IBMPmedium;
-    src: url(/IBMPlexSans-Medium.ttf);
+    src: url(/Police/IBMPlexSans-Medium.ttf);
 }
 
 @font-face {
     font-family: IBMPbold;
-    src: url(/IBMPlexSans-Bold.ttf);
+    src: url(/Police/IBMPlexSans-Bold.ttf);
 }
 
 h1{
