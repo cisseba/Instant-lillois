@@ -9,51 +9,103 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    [class*="col-"] {
+        background-color:white;
+        border: 2px solid #000000;
+        margin-top: 2px;
+        line-height: 50px;
+        text-align: center;
+    }
 
+    .row {
+        /* background-color: rgb(253, 255, 127); */
+    }
+
+    /* .container,
+    .container-fluid {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background-color:blue(237, 219, 253);
+    } */
+</style>
 <body>
     <h1>Contactez-nous</h1>
     <p>Avez-vous des suggestions, des informations sur des bon plan a lille? Voulez vous nous faire part <br>
         de votre experience? Ecrivez ici et nous seront ravie de vous lire!
     </p>
-    <form>
+    <!-- <form>
         <div id="container-textarea">
             <textarea name="" id="" cols="50" rows="10" placeholder="Ecrivez votre texte"></textarea>
         </div>
         <input type="submit" value="Envoyer">
-    </form>
+    </form> -->
+
+    
+    <main class="container">
+        <div class="row">
+            <div class="col-6">ÉCRIVEZ-NOUS
+                <p></p>
+            </div>
+            <div class="col-6">PARTAGEZ AVEC NOUS
+                <p>Nous répondons à vos questions sur :</p>
+
+                <div class= "noiricone">
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="ic-noir"></i></a>
+     
+                    <a href="https://www.facebook.com/?locale=fr_FR">
+                    <i class="fa-brands fa-facebook" id="ic-noir"></i></a>
+                    
+                    <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter" id="ic-noir"></i></a>
+                 </div> 
+            </div>
+    </main>
+
 <!-- footer -->
     <footer class=" bg-cmn-black mt-5 text-bg-dark text-center p-4 " id="footer"> 
             <H5>Amoureux de Lille ? Restons en contact !</H5>
             <!-- placement icone -->
            <div class= "icone">
-               <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="ic-blanc"></i></a>
 
                <a href="https://www.facebook.com/?locale=fr_FR">
-               <i class="fa-brands fa-facebook"></i></a>
+               <i class="fa-brands fa-facebook" id="ic-blanc"></i></a>
                
-               <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter"></i></a>
+               <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter" id="ic-blanc"></i></a>
             </div> 
             <hr>
 
            <!-- sommaire -->
-           <div class="sommairefooter">
-               <a href="index.html" id="ACC">Accueil ></a>
-               <br>
-               <a href="resto-bar.html" id="NC">Restaurants/bar ></a>
-               <a href="activité-loisir.html" id="NC">Activités/loisirs ></a>
-               <a href="tourisme.html" id="NC">Tourisme ></a>
-               <a href="last-minute.html" id="NC">Last minute ></a>
+<div class="sommaire">
+    <div class="sommairefooter">
+        <a href="/Accueil/index.html" id="ACC">Accueil ></a>
+        <br>
+        <a href="resto-bar.html" id="RB">Restaurants/bar ></a> <br>
+        <a href="activité-loisir.html" id="AL">Activités/loisirs ></a><br>
+        <a href="tourisme.html" id="T">Tourisme ></a><br>
+        <a href="last-minute.html" id="LM">Last minute ></a><br>
+    </div>
 
-            </div>
-            <div class="sommaire2">
-                <a href="connexion.html" id="JMCO">je me connecte ></a>
-                <a href="s'inscrire.html">Je m'inscris ></a>
-            </div>
-            
-            <div class="sommaire3">
-                <a href="contatez-nous.html"></a>
-                <a href=""></a>
-            </div>
+    <div class="sommaire2">
+        <a href="connexion.html" id="MOC">Mon compte fidélité ></a>
+        <br>
+        <a href="connexion.html" id="JMCO">je me connecte ></a><br>
+        <a href="s'inscrire.html" id="JEMI">Je m'inscris ></a><br>
+    </div>
+
+    <div class="sommaire3">
+        <a href="contatez-nous.html">Contact ></a><br>
+        <a href="Apropos.html">A propos ></a>
+    </div>
+</div>
+<hr>
+<div class="pays">
+    Pays : FRANCE
+</div>
+
+<div class="logo-container" >
+    <div class="emplacement-vide"></div>
+    <img src="/Logo instant-lillois.png" alt="Logo" id="logo" width="150">
 
             </footer>
 
