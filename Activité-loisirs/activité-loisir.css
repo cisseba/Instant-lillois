@@ -1,0 +1,55 @@
+@font-face{
+    font-family:IBMPmedium;
+    src: url(/Police/IBMPlexSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: IBMPbold;
+    src: url(/Police/IBMPlexSans-Bold.ttf);
+}
+
+h1{
+
+    text-align: center;
+    color: #CF4A6A;
+    font-family: IBMPbold ;
+
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-family: IBMPmedium ;
+
+}
+
+
+#type {
+    border-radius: 100%;
+    color: black;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: IBMPmedium;
+}
+
+.container img{
+    width: 150px;
+}
+.container a {
+    color: black;
+    text-decoration: none;
+}
+.container a :hover{
+    transform: scale(1.015);
+    color: #CF4A6A;
+}
+
+a :visited{
+    color: black;
+}
