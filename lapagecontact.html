@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstantLillois</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="lapagecontacte.css">
+
+    <!-- 3 icones blanches footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+
+
+    <div class="background"></div>
+
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="Accueil/" id="ACCh">Accueil</a>
+            <a href="connexion.html" id="COh">Connexion</a>
+            <a href="s'inscrire.html" id="INSh">Inscription</a>
+            <a href="Apropos.html" id="APh">À propos</a>
+        </nav>
+        <form action="" class="search-bar">
+            <input type="text" placeholder="Recherche...">
+            <button><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+
+    <div class="container">
+        <!-- partie gauche -->
+        <div class="item">
+            <h6 class="logo"><img src="Accueil/I__1_-removebg-preview.png" alt="logosite" width="150" height="150">
+            </h6>
+            <div class="text-item">
+                <h3>Bienvenue! <br> <br>Vous êtes sur la page contact de InstantLillois.</h3>
+                <p>Ce guide est dédié à la découverte des meilleures adresses de restaurants, bars, tourisme et
+                    activités à Lille ! <br> <br> ÉCRIVEZ-NOUS <br>
+                    Merci de compléter les informations suivantes et nous vous répondront dans les meilleurs délais •ᴗ•
+                    <br> <br>
+                    Vous avez besoin d'informations spécifiques, des questions concernant nos recommandations ou
+                    vous souhaitez partager vos expériences, n'hésitez pas à nous contacter. <br>
+                </p>
+                <p>
+                    Découvrez également les expériences captivantes partagées sur les réseaux sociaux.
+                </p>
+                <div class="social-icon">
+                    <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter ic-blanc"></i></a>
+                    <a href="https://www.facebook.com/?locale=fr_FR">
+                        <i class="fa-brands fa-facebook ic-blanc"></i></a>
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram ic-blanc'></i></a>
+                    <a href="https://www.youtube.com/?hl=fr&gl=FR"><i class='bx bxl-youtube ic-blanc'></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- partie droite -->
+        <div class="login-section" id="registration_form" >
+            <div class="form-box login">
+                <form action="" method="POST">
+                    <h2>Informations</h2>
+                    <h4>* Champs obligatoires </h4>
+                    <!-- civilité -->
+                    <label for="civilité">Civilité * :</label>
+                    <select class="civilité">
+                        <option value=""> </option>
+                        <option value="Mme">Mme</option>
+                        <option value="M">M</option>
+                        <option value="Mx">Mx</option>
+                        <option value="Je ne préfère pas répondre">Je ne préfère pas répondre</option>
+                    </select>
+                    <!-- nom -->
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Nom * :</label>
+                    </div>
+                    <!-- prenom -->
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Prenom * :</label>
+                    </div>
+                    <!-- pseudo -->
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>Pseudo * :</label>
+                    </div>
+                    <!-- email -->
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email * :</label>
+                    </div>
+                    <!-- question -->
+                    <label for="réponse">Je préfère recevoir une réponse en * :</label> <select class="question1">
+                        <option value="Français">Français</option>
+                        <option value="Anglais">Anglais</option>
+                        <option value="Espagnol">Espagnol</option>
+                        <option value="Allemand">Allemand</option>
+                        <option value="Chinois (mandarin)">Chinois (mandarin)</option>
+                        <option value="Arabe">Arabe</option>
+                        <option value="Russe">Russe</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Bengali">Bengali</option>
+                        <option value="Portugais">Portugais</option>
+                        <option value="Ourdou">Ourdou</option>
+                    </select>
+
+                    <label for="Zonemessage">Votre message concerne * :</label>
+                    <select class="question2">
+                        <option value="  "> </option>
+                        <option value="Question sur nos recommandations restaurants/bars">Question sur nos
+                            recommandations restaurants/bars</option>
+                        <option value="Question sur nos recommandations activités/loisirs">Question sur nos
+                            recommandations activités/loisirs</option>
+                        <option value="Question sur nos recommandations tourisme">Question sur nos
+                            recommandations tourisme</option>
+                        <option value="Question sur nos recommandations last minute">Question sur nos
+                            recommandations last minute</option>
+                        <option value="Une réclamation">Une réclamation</option>
+                        <option value="Problème avec mon compte">Problème avec mon compte</option>
+                        <option value="mon expérience">mon expérience</option>
+                        <option value="autres">autres</option>
+                    </select>
+
+                    <h5>Votre Commentaire</h5>
+                    <h6>* Champs obligatoires </h6>
+
+                    <textarea name="message" id="message" cols="50" rows="7" maxlength="710"
+                        placeholder=" Ajouter un commentaire "></textarea>
+
+                    <button class="btn">envoyer</button>
+                </form>
+            </div>
+            <!-- <div class="sendmessage">
+            </div> -->
+
+            <!-- <form action="/votre-page-de-traitement" method="post"> -->
+            <!-- Vos champs de formulaire ici -->
+
+            <!-- Bouton Envoyer -->
+            <!-- <input type="submit" value="Envoyer">
+                          </form> -->
+            </form>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-cmn-black text-center p-4" id="footer">
+        <h5>Amoureux de Lille ? Restons en contact !</h5>
+
+        <!-- placement icone -->
+        <div class="icone">
+            <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter ic-blanc"></i></a>
+
+            <a href="https://www.facebook.com/?locale=fr_FR">
+                <i class="fa-brands fa-facebook ic-blanc"></i></a>
+
+            <a href="https://www.youtube.com/?hl=fr&gl=FR"><i class='bx bxl-youtube ic-blanc'></i></a>
+
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram ic-blanc"></i></a>
+
+
+
+        </div>
+        <hr>
+
+        <!-- sommaire -->
+        <div class="sommaire">
+            <div class="sommairefooter">
+                <a href="/Accueil/index.html" id="ACC">Accueil ></a>
+                <br>
+                <a href="resto-bar.html" id="RB">Restaurants/bar ></a> <br>
+                <a href="activité-loisir.html" id="AL">Activités/loisirs ></a><br>
+                <a href="tourisme.html" id="T">Tourisme ></a><br>
+                <a href="last-minute.html" id="LM">Last minute ></a><br>
+            </div>
+
+            <div class="sommaire2">
+                <a href="connexion.html" id="MOC">Mon compte fidélité ></a>
+                <br>
+                <a href="connexion.html" id="JMCO">je me connecte ></a><br>
+                <a href="s'inscrire.html" id="JEMI">Je m'inscris ></a><br>
+            </div>
+
+            <div class="sommaire3">
+                <a href="contatez-nous.html">Contact ></a><br>
+                <a href="Apropos.html">A propos ></a>
+            </div>
+        </div>
+        <hr>
+        <div class="pays">
+            <img src="france.png" alt="drapeaufrance" width="30" height="30">Pays : FRANCE
+        </div>
+
+        <div class="logo-container">
+            <div class="emplacement-vide"></div>
+            <img src="/Logo instant-lillois.png" alt="Logo" id="logo" width="150">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
