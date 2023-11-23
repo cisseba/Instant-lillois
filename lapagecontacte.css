@@ -120,7 +120,7 @@ header a:hover {
 }
 
 .search-bar:hover button  {
-color: #5535bb;
+color: rgb(171, 91, 155);
 }
 
 .search-bar input::placeholder {
@@ -356,7 +356,7 @@ hr {
 }
 
 .logo-container {
-    align-items: center;
+   align-items: center;
 }
 
 #ACC {
