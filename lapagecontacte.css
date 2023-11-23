@@ -93,7 +93,7 @@ header a:hover {
 }
 
 .search-bar:hover{
-    border: 2px solid #8f2020;
+    border: 2px solid #CF4A6A;
 }
 
 
@@ -103,7 +103,7 @@ header a:hover {
     background-color: transparent;
     border: none;
     outline: none;
-    color: #CF4A6A;
+    color: #000000;
     font-size: 16px;
     padding-left: 10px;
 }
@@ -119,8 +119,9 @@ header a:hover {
     cursor: pointer;
 }
 
+/* hover qui change de couleur */
 .search-bar:hover button  {
-color: rgb(171, 91, 155);
+color: rgb(0, 0, 0);
 }
 
 .search-bar input::placeholder {
@@ -159,11 +160,13 @@ color: rgb(171, 91, 155);
     padding-top: 10%;
 }
 
+/* mettre le texte en carré */
 .text-item {
     text-align: justify;
 }
 
 /* partie droite */
+
 
 .text-item h2 {
     font-size: 40px;
@@ -186,9 +189,11 @@ color: rgb(171, 91, 155);
     transform: scale(1.2);
 }
 
+/* Partie translucide de droite */
 .container .login-section {
-
     width: 50%;
+    height: 160vh;
+    border-radius: 40px;
     color: #fff;
     backdrop-filter: blur(20px);
 }
@@ -263,27 +268,7 @@ color: rgb(171, 91, 155);
     top: -5px;
 }
 
-.remember-password {
-    font-size: 14px;
-    font-weight: 500;
-    margin: -15px 0 15px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.remember-password label input {
-    accent-color: #fff;
-    margin-right: 3px;
-}
-
-.remember-password a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.remember-password a:hover {
-    text-decoration: underline;
-}
 
 .btn {
     background: #fff;
