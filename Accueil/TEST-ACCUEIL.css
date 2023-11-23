@@ -1,3 +1,4 @@
+/* police */
 @font-face{
     font-family: IBMPmedium;
     src: url(/Police/IBMPlexSans-Medium.ttf);
@@ -7,21 +8,29 @@
     src: url(/Police/IBMPlexSans-Bold.ttf);
 }
 
-/* header */
-
-
-
+/* Header  */
 header{
-    background-color: black;
-    padding: 20px;
-    margin-bottom: 20px;
+    background: url(/Accueil/JJJJJKK.png);
+    background-size: cover;
+    height: ;
+    
 }
 
+.headerheader{
+    background-color: rgba(0, 0, 0, 0.614);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 .logo-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+   
  }
 
 .recherche{
@@ -50,6 +59,7 @@ header{
     margin-top: 20px;
 }
 
+
 #rb:hover{color: #CF4A6A;}
 #al:hover{color: #CF4A6A;}
 #t:hover{color: #CF4A6A;}
@@ -60,11 +70,8 @@ header{
 #t{color: white;}
 #lm{color: white;}
 
-header a:visited{
-
-    color: white
+a:visited{color: white;
 }
-
 a:hover{
     color: #CF4A6A;
 }
@@ -82,7 +89,9 @@ a:hover{
     bottom: 15px;
     font-family: IBMPbold;
     width: auto;
+    margin: 1000;
 }
+
 
 a{
     text-decoration: none;
@@ -93,45 +102,68 @@ a{
     
 }
 
-/* titres */
+/* photo accueil  */
 
-h1{
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
-    text-align: center;
+.banner-container {
+    position: relative;
+       
+        max-width: 1150px;
+        max-height: 800px; 
+        overflow: hidden;
+        margin: auto;
+        
+    }
+
+    .banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* margin-top: 2px; */
+    border-radius: 3%;
+    }
+.actu img{
+
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 5px black; */
+    border: 1.5px solid black;
+}
+
+.actu img:hover{
+    transform: scale(1.015);
+    box-shadow: 3px 3px 5px black;
+}
+.actu h3 {
+
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: IBMPbold;
     color: #CF4A6A;
-    font-family: IBMPbold ;
-
 }
-
-h4{
-    text-align: center;
-    color: black;
-    font-family: IBMPmedium ;
-
-}
-
-/* Affiches  */
 
 .container{
-    background-color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    font-family: IBMPmedium;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
-#affiches{
+.actu h5{
+    margin-left: 23px;
     margin-top: 15px;
-    margin-left: 5px;
+    font-family: IBMPbold;
 }
 
-#reserver{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    width: 200px;
-    height: 35px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+.actu p {
+    margin-left: 23px;
+    font-family: IBMPmedium;
+
 }
-
-
