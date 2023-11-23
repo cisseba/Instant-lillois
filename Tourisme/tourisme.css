@@ -1,14 +1,15 @@
-/* police */
 @font-face{
-    font-family: IBMPmedium;
+    font-family:IBMPmedium;
     src: url(/Police/IBMPlexSans-Medium.ttf);
 }
+
 @font-face {
     font-family: IBMPbold;
     src: url(/Police/IBMPlexSans-Bold.ttf);
 }
+/* header */
 
-/* Header  */
+
 header{
     background-color: black;
     padding: 20px;
@@ -20,7 +21,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
  }
 
 .recherche{
@@ -49,7 +49,6 @@ header{
     margin-top: 20px;
 }
 
-
 #rb:hover{color: #CF4A6A;}
 #al:hover{color: #CF4A6A;}
 #t:hover{color: #CF4A6A;}
@@ -60,8 +59,11 @@ header{
 #t{color: white;}
 #lm{color: white;}
 
-a:visited{color: white;
+header a:visited{
+
+    color: white;
 }
+
 a:hover{
     color: #CF4A6A;
 }
@@ -90,68 +92,50 @@ a{
     
 }
 
-/* photo accueil  */
+/* tourisme */
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
+h1{
 
-.banner-container {
-    position: relative;
-       
-        max-width: 1150px;
-        max-height: 800px; 
-        overflow: hidden;
-        margin: auto;
-        
-    }
-
-    .banner-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-    /* margin-top: 2px; */
-    border-radius: 3%;
-    }
-.actu img{
-
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
-    border-radius: 10px;
-    /* box-shadow: 3px 3px 5px black; */
-    border: 1.5px solid black;
-}
-
-.actu img:hover{
-    transform: scale(1.015);
-    box-shadow: 3px 3px 5px black;
-}
-.actu h3 {
-
-    margin-left: 30px;
-    margin-top: 30px;
-    font-family: IBMPbold;
+    text-align: center;
     color: #CF4A6A;
+    font-family: IBMPbold ;
+
 }
+
+h2{
+    text-align: center;
+    color: black;
+    font-family: IBMPmedium ;
+
+}
+
+
+#type {
+    border-radius: 100%;
+    color: black;
+}
+
+
 
 .container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.actu h5{
-    margin-left: 23px;
-    margin-top: 15px;
-    font-family: IBMPbold;
-}
-
-.actu p {
-    margin-left: 23px;
+    justify-content: space-evenly;
+    text-align: center;
     font-family: IBMPmedium;
+}
 
+.container img{
+    width: 275px;
+}
+.container a {
+    color: black;
+    text-decoration: none;
+}
+.container a :hover{
+    transform: scale(1.015);
+    color: #CF4A6A;
+}
+
+a :visited{
+    color: black;
 }
