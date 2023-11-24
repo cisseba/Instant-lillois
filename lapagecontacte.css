@@ -1,0 +1,432 @@
+body{
+    height: 300vh;
+    position: relative;
+}
+
+/* fond ecrant */
+
+.background {
+    background: url(Accueil/foncContact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    filter: blur(4px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/* header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 13%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+/* .navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    bottom: -5px;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s ease; 
+}
+*/
+/* .navbar a:hover:after {
+    transform: translateY(0);
+    opacity: 1;
+} */
+
+header a:hover {
+    border-bottom: 3px #CF4A6A solid;
+    scale:1.1;
+}
+
+/* #COh:hover {
+    color: #CF4A6A;
+}
+
+#INSh:hover {
+    color: #CF4A6A;
+}
+
+#APh:hover {
+    color: #CF4A6A;
+} */
+
+/* contour bar de recherche */
+.search-bar {
+    width: 250px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar:hover{
+    border: 2px solid #CF4A6A;
+}
+
+
+/* intérieur bar de recherche */
+.search-bar input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+/* loupe barre de recherche */
+.search-bar button {
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #CF4A6A;
+    cursor: pointer;
+}
+
+/* hover qui change de couleur */
+.search-bar:hover button  {
+color: rgb(0, 0, 0);
+}
+
+.search-bar input::placeholder {
+    color: #fff;
+}
+
+.search-bar button i {
+    font-size: 22px;
+}
+
+.item {
+    width: 58%;
+    height: 100%;
+    color: #fff;
+    background: transparent;
+    padding: 80px;
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column; */
+}
+
+.item .logo {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/* partie gauche */
+
+.container {
+    width: 100%;
+    height: 200vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 10%;
+}
+
+/* mettre le texte en carré */
+.text-item {
+    text-align: justify;
+}
+
+/* partie droite */
+
+
+.text-item h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.text-item p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.social-icon a i {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+} */
+
+.social-icon a:hover i {
+    transform: scale(1.2);
+}
+
+/* Partie translucide de droite */
+.container .login-section {
+    width: 50%;
+    height: 160vh;
+    border-radius: 40px;
+    color: #fff;
+    backdrop-filter: blur(20px);
+}
+
+.login-section .form-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-section .form-box.register {
+    transform: translateX(430px);
+}
+
+.login-section.active .form-box.register {
+    transform: translateX(0px);
+}
+
+.login-section .form-box.login {
+    transform: translateX(0px);
+}
+
+.login-section.active .form-box.login {
+    transform: translateX(430px);
+}
+
+
+
+.login-section .form-box h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-box .input-box {
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#fff;
+    margin: 30px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+
+
+.btn {
+    background: #fff;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #CF4A6A;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.create-account {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
+}
+
+.create-account p a {
+    color: #fff;
+    font-weight: 600px;
+    text-decoration: none;
+}
+
+.create-account p a:hover {
+    text-decoration: underline;
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+}
+
+h5{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+   align-items: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
+    color: #CF4A6A;
+}
+
+#MOC {
+    color: #CED0CE;
+}
+
+#MOC:hover {
+    color: #CF4A6A;
+}
+
+footer {
+    font-family: ibmpmedium;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sommaire {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sommaire a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* interieur partie droite  */
+
+
+/* reprise de ce que j'ai fait dans la barre de recherche */
+
+
+/* intérieur civilité et contour blanc */
+.civilité {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    /* font-size: 16px;
+    padding-left: 10px; */
+}
+
+option{
+    background-color: transparent;
+    color: black;
+}
+/* intérieur question1 */
+.question1 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+/* intérieur question2 */
+.question2 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}

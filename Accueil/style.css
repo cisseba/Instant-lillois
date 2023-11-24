@@ -155,3 +155,84 @@ body, html {
     font-family: IBMPmedium;
 
 }
+
+
+/* footer */
+footer{
+    background-color: black
+}
+
+h5{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
+    color: #CF4A6A;
+}
+
+#MOC {
+    color: #CED0CE;
+}
+
+#MOC:hover {
+    color: #CF4A6A;
+}
+
+footer {
+    font-family: ibmpmedium;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sommaire {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sommaire a {
+    color: white;
+    text-decoration: none;
+}
+
+/* javascript */
+
