@@ -20,7 +20,7 @@ body {
 
 /* Header  */
 header{
-    background-image: url(/Restaurant/photo-resto-catégorie\ 5.jpg);
+    background-image: url(/Restaurant/Bande\ italien.png);
     background-size: cover; /* Pour conserver les proportions de l'image et la faire couvrir l'en-tête */
     background-position: center; /* Pour centrer l'image dans l'en-tête */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
@@ -115,12 +115,13 @@ a{
     
 }
 
-/* catégorie  */
+/* restaurants italiens  */
 
 
 #type {
-    border-radius: 100%;
+
     color: black;
+    
 }
 
 
@@ -128,13 +129,14 @@ a{
 .container{
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    font-family: IBMPmedium;
-    margin-bottom: 10px;
+    text-align: left;
+    font-family: IBMPlight;
+    margin-top: 100px;
 }
 
 .container img{
-    width: 150px;
+    width: 250px;
+    height: 200px;
 }
 .container a {
     color: black;
@@ -148,83 +150,6 @@ a{
 
 a :visited{
     color: black;
-}
-
-/* image aleatoire  */
-
-                            /* #container2 {
-                                text-align: center;
-                                margin-top: 70px;
-                                overflow: hidden;
-                            }
-
-                            #randomImage {
-                                width: 600px;
-                                height: 400px;
-                                border: 1px solid #000000;
-                                object-fit: cover;
-                                border-radius: 10px;
-                                margin-bottom:  20px;
-                                background-repeat: no-repeat;
-                                background-position: 0 0;
-                                transition: background-position 3s cubic-bezier(0.4, 2.5, 0.3, 1.5);
-                            } */
-
-
-#container2 {
-    text-align: center;
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-}
-
-.slot-machine {
-    width: 600px;
-    height: 400px;
-    border: 1px solid #000000;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    transition: background-position 3s cubic-bezier(0.4, 2.5, 0.3, 1.5);
-    
-}
-
-
-/* .roll {
-    background-position: 0 -1200px;
-} */
-
-#changeButton {
-    margin-top: 40px;
-    padding: 10px;
-    cursor: pointer;
-    color: #ffffff;
-    background-color: #CF4A6A;
-    border-radius: 10px;
-    
-    
-}
-
-.changeButton2{
-    display: flex;
-    justify-content: center;
-}
-
-
-.roulette{
-
-    background: url(/Restaurant/cc.mp4);
-    padding-top: 30px;
-    margin-top: 100px;
-
-}
-
-h4{
-
-text-align: center;
-
 }
 
 
