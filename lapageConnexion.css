@@ -1,83 +1,229 @@
-/* police */
-/* @font-face{
-    font-family: IBMPmedium;
-    src: url(/Police/IBMPlexSans-Medium.ttf);
-}
-@font-face {
-    font-family: IBMPbold;
-    src: url(/Police/IBMPlexSans-Bold.ttf);
-} */
+/* fond ecrant */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.background {
+    background: url(Accueil/places_france_lille_grand_place_sd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    filter: blur(7px);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
+
+ 
+body {
+    margin: 0; /* Supprime les marges par défaut du body */
+    padding: 0; /* Supprime les paddings par défaut du body */
+    position: relative; /* Assure que .main est positionné relativement à body */
+    
+  }
+  
+  .main {
+    position: fixed; /* ou "absolute" si vous voulez positionner par rapport à un élément parent */
+    top: 40px; /* Ajustez la distance par rapport au haut */
+    left: 30px; /* Ajustez la distance par rapport à gauche */
+    display: flex;
+    align-items: center; /* Aligner verticalement les icônes */
+    z-index: 1;
+    
+  }
+  
+  .icone {
+    margin-right: 45px; /* Espacement horizontal entre les icônes */
+    border-radius: 50px;
+transition: all .3s;
+
+  }
+  
+  .icone a {
+    color: white;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+  }
+
+  .icone a i {
+    font-size: 19px; /* Ajustez la taille des icônes selon vos préférences */
+    
+  }
+  
+  
+  .icone a:hover i {
+    transform: scale(1.2);
+  }
+  
+  
+  
+  
+.fa-x-twitter{
+    color: #ffffff;
+    filter: drop-shadow( 0 0 20px #ffffff);
+}
+.fa-facebook{
+    color: #ffffff;
+    filter: drop-shadow( 0 0 10px #ffffff);
+}
+.fa-instagram{
+    color: #ffffff;
+    filter: drop-shadow( 0 0 10px #ffffff);
+}
+.fa-youtube{
+    color: #ffffff;
+    filter: drop-shadow( 0 0 10px #ffffff);
+}
+
+
+
+
+/* header */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Aligner les éléments sur la droite */
+    margin-top: 2px; /* Espacement du haut de la page */
+  }
+
+  .navbar a {
+    font-size: 16px;
+    color: white;
+    margin-left: 30px; /* Espacement entre les éléments */
+    text-decoration: none;
+    position: relative;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+  }
+
+  
+
+
+  
+/* souligner en couleur hover  */
+header a:hover {
+    border-bottom: 3px #CF4A6A solid;
+    scale:1.1;
+}
+
+
+ .header-arrondi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    padding: 25px 3%;
+    /* background: transparent;
+    display: flex;
+    align-items: center; */
+     /* z-index: -1;     */
+  } 
+
+
+ .header-arrondi
+ {
+    /* content: ''; */
+    display: block;
+    width : 100%;
+    height: 220px; 
+     border-bottom-left-radius: 50%; 
+     border-bottom-right-radius: 50%; 
+     background-image: linear-gradient(to bottom, #d84668c0, rgba(246, 201, 211, 0.168)); 
+     
+     } 
+
+     
+
 
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin-top: 2%;
 }
 
-.box{
+.box
+{
     position: relative;
     width: 380px;
-    height: 420px;
-    background-color: rgb(0, 0, 0);
+    height: 590px;
+    background-color: rgba(255, 255, 255, 0.114);
     border-radius: 8px;
+    overflow: hidden;
 }
 
 .box::before
 {
-    content: "";
+    content: '';
     position: absolute;
     top: -50%;
     left: -50%;
     width: 380px;
     height: 420px;
-    background: linear-Gradient(0deg, transparent,
+    background: linear-gradient(0deg, transparent,
     transparent, #CF4A6A, #CF4A6A, #CF4A6A);
-    z-index: 1px;
+    z-index: 1;
+    transform-origin: bottom right;
     animation: animate 6s linear infinite;
     animation-delay: -3s;
 }
-.borderline
+
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #CF4A6A, #CF4A6A, #CF4A6A);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+
+ .borderLine
 {
     position: absolute;
     top: 0;
     inset: 0;
 }
 
-.borderline::before
+.borderLine::before
 {
-        content: "";
+        content: '';
         position: absolute;
         top: -50%;
         left: -50%;
         width: 380px;
         height: 420px;
-        background: linear-Gradient(0deg, transparent,
+        background: linear-gradient(0deg, transparent,
         transparent, #F0913D, #F0913D, #F0913D);
-        z-index: 1px;
+        z-index: 1;
+        transform-origin: bottom right;
         animation: animate 6s linear infinite;
         animation-delay: -1,5s;
-}
-
-.borderline::after
+} 
+.borderLine::after
 {
-        content: "";
+        content: '';
         position: absolute;
         top: -50%;
         left: -50%;
         width: 380px;
         height: 420px;
-        background: linear-Gradient(0deg, transparent,
+        background: linear-gradient(0deg, transparent,
         transparent, #F0913D, #F0913D, #F0913D);
-        z-index: 1px;
+        z-index: 1;
+        transform-origin: bottom right;
         animation: animate 6s linear infinite;
-        animation-delay: -4,5s;
+        animation-delay: -4.5s;
 
 
 }
@@ -94,10 +240,11 @@ body{
     }
 }
 
+/* forme blanche centre */
 .box form{
 position: absolute;
 inset: 4px;
-background: #F4EDEA;
+background: rgba(255, 255, 255, 0.966);
 padding: 50px 40px;
 border-radius: 8px;
 z-index: 2;
@@ -105,88 +252,207 @@ display: flex;
 flex-direction: column;
 }
 
+.logo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+/* TITRE SE CONNECTER */
 .box form h2{
-    color: #F4EDEA;
+    color: black;
     font-weight: 500;
     text-align: center;
     letter-spacing: 0.1em;
+    font-family: 'Inter', sans-serif;
 }
 
-.box form .inputBox
-{
-    position: relative;
-    width: 300px;
-    padding: 20px 10px 10px;
-    background: transparent;
-    outline: none;
-    box-shadow: none;
-    color: black;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    transition: 0.5s;
-    z-index: 10;
+.h2seconnecter {
+    font-size: 110%;
+    font-weight: 1000; 
 }
 
-.box form .inputBox span
-{
+.h2seconnecter{
+    font-size: 110%;
+}
+
+.textecentre1 p{
+    margin-top: -10px;
+}
+
+/* SOUS TITRE Saisissez les meilleures offres avant qu’il ne soit trop tard ! et *Champs obligatoires */
+.textecentre1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 62%;
+}
+.textecentre1 .champs-obligatoires {
+    margin-top: -16px;
+    font-size: 90%;
+    margin-bottom: -3%;
+}
+
+/* espace au dessus de mot de passe */
+#pass{
+    margin-top: -2%;
+}
+
+#passoublier{
+    font-size: 100%;
+}
+
+/* POSITION */
+.boxseconnecter{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .clindoeil {
+    display: flex;
+    justify-content: flex-end; 
+    
+} */
+
+/* .checkbox{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+} */
+
+.links{
+    font-size: 50%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+input[type="checkbox"] {
+    justify-content: flex-start;
+    width: 10px; /* Largeur de la case à cocher */
+    height: 10px; /* Hauteur de la case à cocher */
+}
+
+.textecentre2 {
     position: absolute;
-    left: 0;
-    padding: 20px 0px 10px;
-    pointer-events: none;
-    color: black;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-transition: 0.05s;
+    margin-top: 5%;
+    /* bottom: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
 }
 
-.box form .inputBox input:valid ~span,
-.box form .inputBox input:focus ~span
-{
-    color: white;
-    font-size: 0.75em;
-    transform: translateY(-34px);
+.textecentre2 p{
+    font-size: 130%;
+    margin-bottom: -7%;
+}
+.textecentre2 .links {
+    display: flex;
+    justify-content: center;
+     font-size: 165%;
+     
 }
 
+/* .box form .inputBox:nth-child(2) {
+    margin-top: 20px; 
+} */
+
+
+/* lignes */
 .box form .inputBox i
 {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 2px;
-    background: white;
+    height: 2%;
+    background: rgb(228, 227, 227);
     border-radius: 4px;
     overflow: hidden;
     transition: 0.5s;
     pointer-events: none;
-}
+} 
 
-.box form .inputBox input:valid ~i,
-.box form .inputBox input:focus ~i
+ .box form .inputBox
 {
-    height: 44px;
-}
+    position: relative;
+    width: 300px;
+    margin-top: 15px;
+} 
 
-.box form .links
+.box form .inputBox input
 {
-display: flex;
-justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 10px 10px 25px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: black;
+    /* font size intérieur !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    font-size: 0.7em;
+    letter-spacing: 0.01em;
+    transition: 0.5s;
+    z-index: 10;
+    
 }
 
+.box form .inputBox span
+{
+    position: absolute;
+    left: 0;
+    padding: 35px 10px 10px;
+    pointer-events: none;
+/* font size nom de box !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    font-size: 0.6em;
+transition: 0.05s;
+}
+
+
+
+.box form .inputBox input:valid ~ span,
+.box form .inputBox input:focus ~ span
+{
+    color:black;
+    font-size: 0.75em;
+    transform: translateY(-30px);
+}
+
+.box form .inputBox input:valid,
+.box form .inputBox input:focus{
+    transform: translateY(25px);
+    
+}
+
+
+
+
+.box form .inputBox input:valid ~ i,
+.box form .inputBox input:focus ~ i
+{
+    height: 20px;
+}
+
+/* phrase s'inscrire et mot de passe oublié */
 .box form .links a
 {
     margin: 10px 0;
     font-size: 0.75em;
-    color: white;
-    text-decoration: none;
+    color: black;
+    /* text-decoration: none; */
 }
 
 /* couleur hover s'inscrire */
 .box form .links a:hover,
 .box form .links a:nth-child(2)
 {
-    color: white;
+    color:#CF4A6A;
 }
+
 
 .box form .inputBox input[type="submit"]
 {
@@ -195,14 +461,52 @@ justify-content: space-between;
     padding: 9px 25px;
     background-color: white;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 0.1em;
     border-radius: 4px;
-    font-weight: 600;
+    font-weight: 300;
     width: 100px;
     margin-top: 10px;
 }
+
 
 .box form input[type="submit"]:active
 {
     opacity: 0.8;
 }
+
+
+#submit{
+    padding: 2px;
+    font-size: 60%;
+    color: black;
+    background-color: white;
+    
+}
+
+#submit:hover{
+    color: white;
+    background-color: #CF4A6A;
+    border: none;
+}
+
+
+
+/* s'inscrire */
+@keyframes clignotement {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#clignotant {
+    animation: clignotement 2s infinite; /* Animation de clignotement */
+}
+
+
+
