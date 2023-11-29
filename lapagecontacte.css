@@ -164,7 +164,7 @@ color: rgb(0, 0, 0);
     font-size: 24px;
     margin-left: 10px;
     cursor: pointer;
-} */
+} 
 
 .social-icon a:hover i {
     transform: scale(1.2);
