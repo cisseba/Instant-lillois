@@ -173,52 +173,59 @@ margin-bottom: 50px;
 
 }
 
+/* footer */
 
-
-
-/* Actualité  */
-
-/* 
-.actu img{
-
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
-    border-radius: 10px;
-    /* box-shadow: 3px 3px 5px black; */
-    /* border: 1.5px solid black; */
-
-
-/* .actu img:hover{
-    transform: scale(1.015);
-    box-shadow: 3px 3px 5px black;
+footer{
+    background-color: black;
 }
-.actu h3 {
 
-    margin-left: 30px;
-    margin-top: 30px;
-    font-family: IBMPbold;
+h5{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+   align-items: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
     color: #CF4A6A;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+#MOC {
+    color: #CED0CE;
 }
 
-.actu h5{
-    margin-left: 23px;
-    margin-top: 15px;
-    font-family: IBMPbold;
-} */
-
-/* .actu p {
-    margin-left: 23px;
-    font-family: IBMPmedium;
-
-} */
-
+#MOC:hover {
+    color: #CF4A6A;
+}
 
 
