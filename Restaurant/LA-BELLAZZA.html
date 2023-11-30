@@ -4,10 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/Restaurant/LA-BELLEZZA.css">
 </head>
 <body>
-    <h1>La Bellazza</h1>
-    <img src="/Restaurant/PHOTO RESTO/La bellazza 1.jpg" alt="La-Bellazza-1">
+    
+    <header>
+
+        <div class="headerheader">
+             <!-- mise en place du logo  -->
+            <div class="logo-container">
+                <a href="/Accueil/TEST-ACCUEIL.html"> <img src="/Accueil/logo instant lillois pour accueil.png" alt="Logo" id="logo" width="200"></a>
+            </div>
+                <div class="resto">
+                    <a href="/Restaurant/resto-bar.html" id="rb">Restaurant/bar</a>
+                </div>
+                <div class="activité">
+                    <a href="/Activité-loisirs/activité-loisir.html" id="al">Activités/loisirs</a>
+                </div>
+                <div class="tourisme">
+                    <a href="/Tourisme/tourisme.html" id="t">Tourisme</a>
+                </div>
+                <div class="last">
+                    <a href="/Last-minute/last-minute.html" id="lm">Last minute</a>
+                </div>
+             <div>
+                 <!-- mise en place du bouton connexion   -->
+                 <a href="/connexion.html" id="connexion">connexion</a>
+          </div>
+    
+            <!-- mise en place du menu  -->
+    
+        </div>
+
+    </header>
+
+    <h2>La Bellezza</h2>
+
+    <!-- <div class="container">
+    <div class="row">
+    <div class="col-6">
+        <img src="/Restaurant/PHOTO RESTO/La bellazza 1.jpg" alt="la bellezza1" id="bellezza1">
+       
+    </div>
+
+    <div class="col-6">
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, vel aspernatur quos quisquam voluptatum libero, mollitia voluptate nihil temporibus sit corrupti, doloribus molestiae consequuntur debitis eius ipsam eum minima et!</p>
+    </div>
+    </div>
+    </div> -->
+
+    <div class="product-container">
+        <div class="product-images">
+          <img id="main-image" src="/Restaurant/PHOTO-RESTO/La bellazza 1.jpg" alt="Produit">
+          <div class="thumbnail-images">
+            <img src="/Restaurant/PHOTO-RESTO/La bellazza 1.jpg" alt="Thumbnail 3" onclick="changeImage('/Restaurant/PHOTO-RESTO/La bellazza 1.jpg')" id="p3">
+            <img src="/Restaurant/PHOTO-RESTO/La bellazza 3.PNG" alt="Thumbnail 1" onclick="changeImage('/Restaurant/PHOTO-RESTO/La bellazza 3.PNG')" id="p1">
+            <img src="/Restaurant/PHOTO-RESTO/La bellazza 4.PNG" alt="Thumbnail 2" onclick="changeImage('/Restaurant/PHOTO-RESTO/La bellazza 4.PNG')" id="p2">
+            <img src="/Restaurant/PHOTO-RESTO/La bellazza 5.PNG" alt="Thumbnail 3" onclick="changeImage('/Restaurant/PHOTO-RESTO/La bellazza 5.PNG')" id="p3">
+          </div>
+        </div>
+        <div class="product-description">
+          <h1 id="description1">La Bellezza à Lille : Une Évasion Italienne dans l'Art de la Cuisine</h1>
+          <p id="description">Découvrez l'élégance culinaire italienne à "La Bellezza", un joyau gastronomique au cœur de Lille. Plongez dans une expérience authentique où des plats italiens traditionnels, des pâtes faites maison et des pizzas irrésistibles se rencontrent dans une atmosphère chaleureuse et artistique. <br> <br> Que vous soyez fan de fruits de mer frais, de viandes grillées ou de délices végétariens, "La Bellezza" comble tous les goûts. Laissez-vous séduire par cette escapade culinaire, réservez maintenant pour une soirée mémorable où l'Italie s'invite à votre table.</p>
+
+          <a href="https://www.sevenrooms.com/reservations/bellezzavieuxlille/bmg">
+            <button id="bouton">Reserver</button> 
+          </a>
+        </div>
+        
+
+      </div>
+<div class="lieu">
+            <p class="add">126 rue Esquermoise, 59800 Lille</p>
+        </div>
+        <div class="metro">
+            <img src="/Restaurant/metro.png" alt="metro" id="metro1"> Rihour
+        </div>
+
+      <script src="/Restaurant/LA-BELLEZZA.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
 </html>

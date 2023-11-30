@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Restaurant/RAPTOR.css">
 </head>
 <body>
-    <h1>Raptor Shak</h1>
-    <img src="/Restaurant/PHOTO RESTO/Raptor shack 1.jpg" alt="Raptor1">
+    
+    <header>
+
+        <div class="headerheader">
+             <!-- mise en place du logo  -->
+            <div class="logo-container">
+                <a href="/Accueil/TEST-ACCUEIL.html"> <img src="/Accueil/logo instant lillois pour accueil.png" alt="Logo" id="logo" width="200"></a>
+            </div>
+                <div class="resto">
+                    <a href="/Restaurant/resto-bar.html" id="rb">Restaurant/bar</a>
+                </div>
+                <div class="activité">
+                    <a href="/Activité-loisirs/activité-loisir.html" id="al">Activités/loisirs</a>
+                </div>
+                <div class="tourisme">
+                    <a href="/Tourisme/tourisme.html" id="t">Tourisme</a>
+                </div>
+                <div class="last">
+                    <a href="/Last-minute/last-minute.html" id="lm">Last minute</a>
+                </div>
+             <div>
+                 <!-- mise en place du bouton connexion   -->
+                 <a href="/connexion.html" id="connexion">connexion</a>
+          </div>
+    
+            <!-- mise en place du menu  -->
+    
+        </div>
+
+    </header>
+
+    <h2>Raptor Shack</h2>
+
+
+    <div class="product-container">
+        <div class="product-images">
+          <img id="main-image" src="/Restaurant/PHOTO-RESTO/Raptor shack 1.jpg" alt="Produit">
+          <div class="thumbnail-images">
+            <img src="/Restaurant/PHOTO-RESTO/Raptor shack 1.jpg" alt="Thumbnail 3" onclick="changeImage('/Restaurant/PHOTO RESTO/Raptor shack 1.jpg')" id="p2">
+            <img src="/Restaurant/AAArraptor3.PNG" alt="Thumbnail 2" onclick="changeImage('/Restaurant/AAArraptor3.PNG')" id="p3"> 
+            <img src="/Restaurant/GGGGG RRRRAAAPPPTTOOORRRR.PNG" alt="Thumbnail 1" onclick="changeImage('/Restaurant/GGGGG RRRRAAAPPPTTOOORRRR.PNG')" id="p1">
+           
+            <img src="/Restaurant/PHOTO-RESTO/Raptor shack 4.jpg" alt="Thumbnail 3" onclick="changeImage('/Restaurant/PHOTO-RESTO/Raptor shack 4.jpg')" id="p3">
+          </div>
+        </div>
+        <div class="product-description">
+    
+
+
+          <h1 id="description1">
+            Raptor Shack: L'Aventure Gourmande du Fast-Food à Lille</h1>
+          <p id="description">Plongez dans l'univers décontracté et audacieux du "Raptor Shack", une expérience de fast-food hors du commun au cœur de Lille. Avec une approche novatrice du plaisir rapide, notre menu propose une variété de délices qui révolutionnent la scène du fast-food traditionnel. <br> <br>
+
+            Des burgers généreux aux sandwichs créatifs, chaque option au "Raptor Shack" est conçue pour satisfaire vos envies de saveurs intenses et de repas rapides. Notre équipe dévouée prépare chaque commande avec soin, garantissant une expérience culinaire mémorable, même dans le monde effervescent du fast-food.
+            </p>
+
+          <a href="https://raptorshack.com/fr">
+            <button id="bouton">Reserver</button> 
+          </a>
+        </div>
+        
+
+      </div>
+<div class="lieu">
+            <p class="add">18 Rue d'Amiens, 59000 Lille</p>
+        </div>
+        <div class="metro">
+            <img src="/Restaurant/metro.png" alt="metro" id="metro1"> Rihour
+        </div>
+
+      <script src="/Restaurant/RAPTOR.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
 </html>
