@@ -135,19 +135,31 @@
     justify-content: space-between;
 }
 
-/* Augmenter la taille des cases à cocher */
+/* taille des cases à cocher */
 .links input[type="checkbox"] {
-    transform: scale(1.5); /* Ajustez la valeur selon la taille souhaitée */
-    margin-right: 5px; /* Espace entre les cases à cocher et le texte */
+    transform: scale(1.5); 
+    margin-right: 5px; 
 }
 
-
+.ligne{
+    display: flex;
+}
+.colone{
+    /* flex: 1; */
+    width: 50%;
+}
+.droite{
+    padding-left: 37px;
+}
+.colone label{
+    text-align: left !important;
+}
 
 /* Positionner "Je passe cette étape" plus bas */
 .links label:last-child {
     display: block;
-    margin-top: 17px; /* Ajustez la valeur selon l'espace souhaité */
-
+    margin-top: 17px; 
+text-align: center;
 }
 
 
