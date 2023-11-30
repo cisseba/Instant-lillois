@@ -20,11 +20,12 @@ body {
 
 /* Header  */
 header{
-    background-image: url(/Accueil/bande\ \ \(1\).png);
+    background-image: url(/Restaurant/Bande\ italien.png);
     background-size: cover; /* Pour conserver les proportions de l'image et la faire couvrir l'en-tête */
     background-position: center; /* Pour centrer l'image dans l'en-tête */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
-    height: 500px; 
+    height: 300px; 
+    margin-bottom: 50px;
 }
 
 .headerheader{
@@ -114,118 +115,41 @@ a{
     
 }
 
+/* restaurants italiens  */
 
-.photo-lille{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-#ph1:hover{
-    transform: scale(1.015);
-}
+#type {
 
-#ph2:hover{
-    transform: scale(1.015);
-}
-
-#ph3:hover{
-    transform: scale(1.015);
-}
-
-#ph4:hover{
-    transform: scale(1.015);
-}
-
-#ph5:hover{
-    transform: scale(1.015);
-}
-
-h2{
     color: black;
-    margin-left: 48px;
-    font-family: IBMPlight;
-    margin-top: 50px;
     
 }
 
+
+
 .container{
-
-background-size: auto;
-margin-top: 100px;
-margin-right: 50px;
-padding-top: 50px;
-}
-
-.fond2{
-    background-color: #FFFFF3;
-
-}
-
-#marche{
-
-margin-bottom: 50px;
-
-}
-
-#dechirure{
-    width: 100%;
-
-
-}
-
-/* footer */
-
-footer{
-    background-color: black;
-}
-
-h5{
-    color: white;
-}
-
-hr {
-    border-color: white;
-  }
-
-.icone a {
-    color: white;
-    font-size: 20px
-}
-
-.ic-blanc {
-    margin: 0 10px;
-}
-
-.ic-blanc:hover {
-    scale: 1.5;
-}
-
-.pays {
-    color: white;
-    text-decoration: none;
     display: flex;
+    justify-content: space-evenly;
     text-align: left;
-    padding: 10px 10px 10px 10px;
+    font-family: IBMPlight;
+    margin-top: 100px;
 }
 
-.logo-container {
-   align-items: center;
+.container img{
+    width: 250px;
+    height: 200px;
+}
+.container a {
+    color: black;
+    text-decoration: none;
 }
 
-#ACC {
-    color: #CED0CE;
-}
-
-#ACC:hover {
+.container a :hover{
+    transform: scale(1.015);
     color: #CF4A6A;
 }
 
-#MOC {
-    color: #CED0CE;
-}
-
-#MOC:hover {
-    color: #CF4A6A;
+a :visited{
+    color: black;
 }
 
 

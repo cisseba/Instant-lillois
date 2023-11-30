@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Restaurant/TEST-PAGE-RESTO.css">
+  </head>
+  <body>
+    <header>
+
+        <div class="headerheader">
+             <!-- mise en place du logo  -->
+            <div class="logo-container">
+                <a href="/Accueil/TEST-ACCUEIL.html"> <img src="/Accueil/logo instant lillois pour accueil.png" alt="Logo" id="logo" width="200"></a>
+            </div>
+                <div class="resto">
+                    <a href="/Restaurant/resto-bar.html" id="rb">Restaurant/bar</a>
+                </div>
+                <div class="activité">
+                    <a href="/Activité-loisirs/activité-loisir.html" id="al">Activités/loisirs</a>
+                </div>
+                <div class="tourisme">
+                    <a href="/Tourisme/tourisme.html" id="t">Tourisme</a>
+                </div>
+                <div class="last">
+                    <a href="/Last-minute/last-minute.html" id="lm">Last minute</a>
+                </div>
+             <div>
+                 <!-- mise en place du bouton connexion   -->
+                 <a href="/connexion.html" id="connexion">connexion</a>
+          </div>
+    
+            <!-- mise en place du menu  -->
+    
+        </div>
+
+    </header>
+
+    <section>
+
+        <div class="container">
+            <div class="rest-it">
+             <a href="/Restaurant/italien.html"><img src="/Restaurant/Photo restaurant/italien.jpeg" alt="rest-it" id="type"></a>
+              <a href="/Restaurant/italien.html"><h5>Italien</h5></a>
+            </div>
+            <div class="rest-gl">
+             <a href="/Restaurant/gourmet.html"><img src="/Restaurant/Photo restaurant/gourme.jpeg" alt="rest-gl" id="type"></a> 
+              <a href="/Restaurant/gourmet.html"><h5>Gourmet</h5></a>
+            </div>
+            <div class="rest-lo">
+              <a href="/Restaurant/local.html"><img src="/Restaurant/Photo restaurant/local.jpeg" alt="rest-lo" id="type"></a>
+              <a href="/Restaurant/local.html"><h5>Local</h5></a>
+            </div>
+            <div class="rest-ff">
+               <a href="/Restaurant/fast-food.html"><img src="/Restaurant/Photo restaurant/fastfood.jpeg" alt="rest-ff" id="type"></a> 
+                <a href="/Restaurant/fast-food.html"><h5>Fast-food</h5></a>
+              </div>
+          </div>
+
+        <div class="container">
+            <div class="rest-af">
+                <a href="/Restaurant/africain.html"><img src="/Restaurant/Photo restaurant/africain.jpeg" alt="rest-af"
+                        id="type"></a>
+                <a href="/Restaurant/africain.html" id="nomlien">
+                    <h5>Africain</h5>
+                </a>
+            </div>
+            <div class="rest-as">
+                <a href="/Restaurant/asiatique.html"><img src="/Restaurant/Photo restaurant/asiatique.jpeg" alt="rest-as"
+                        id="type"></a>
+                <a href="/Restaurant/asiatique.html" id="nomlien">
+                    <h5>Asiatique</h5>
+                </a>
+            </div>
+            <div class="rest-bg">
+                <a href="/Restaurant/brunch-gouter.html"><img src="/Restaurant/Photo restaurant/brunch-gouter.jpeg" alt="rest-bg"
+                        id="type"></a>
+                <a href="/Restaurant/brunch-gouter.html" id="nomlien">
+                    <h5>Brunch/Gouter</h5>
+                </a>
+            </div>
+            <div class="rest-mx">
+                <a href="/Restaurant/mexicain.html"><img src="/Restaurant/Photo restaurant/mexicain.jpg" alt="rest-mx"
+                        id="type"></a>
+                <a href="/Restaurant/mexicain.html" id="nomlien">
+                    <h5>Mexicain</h5>
+                </a>
+            </div>
+        </div>
+
+</section>
+<section>
+
+    <div class="roulette">
+    <h4>Vous ne savez pas quel restaurant choisir ? <br> Laissez le hasar décider pour vous !</h4>
+
+    <!-- <div id="container2"> 
+
+            <button id="changeButton" onclick="changeImage()">Changer l'image</button> <br>
+
+            <a id="imageLink" href="#">
+                <img id="randomImage" src="/Restaurant/Photo restaurant/brunch-gouter.jpeg" alt="Image Aléatoire">
+            </a>
+    
+           
+        </div>  -->
+    <div class="changeButton2" >
+    <button id="changeButton" onclick="changeImage()" >Lancer</button> 
+</div>
+        <div id="container2" >
+             
+            <div id="imageContainer" class="slot-machine"> </div> 
+            
+        </div>
+    
+
+    </div>
+
+
+</section>
+
+
+    <script src="/Restaurant/TEST-PAGE-RESTO.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
