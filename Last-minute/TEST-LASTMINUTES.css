@@ -164,4 +164,137 @@ h4{
     margin-bottom: 15px;
 }
 
+/*__________________________________________________________________________________________* 
+/*__________________________________________________________________________________________*
+/*__________________________________________________________________________________________*
+
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 100px;
+}
+
+#letextfooter{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+   align-items: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
+    color: #CF4A6A;
+}
+
+#MOC {
+    color: #CED0CE;
+}
+
+#MOC:hover {
+    color: #CF4A6A;
+}
+
+footer {
+    font-family: ibmpmedium;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sommaire {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sommaire a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* interieur partie droite  */
+
+
+/* reprise de ce que j'ai fait dans la barre de recherche */
+
+
+/* intérieur civilité et contour blanc */
+.civilité {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    /* font-size: 16px;
+    padding-left: 10px; */
+}
+
+option{
+    background-color: transparent;
+    color: black;
+}
+/* intérieur question1 */
+.question1 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+/* intérieur question2 */
+.question2 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
 
