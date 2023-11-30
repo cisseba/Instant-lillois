@@ -1,6 +1,3 @@
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     var video = document.getElementById("video-background");
     var playButton = document.getElementById("play");

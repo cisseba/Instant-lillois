@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Accueil/I.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="page2sinscrire.css">
+</head>
+
+<body>
+
+
+
+    <div class="containervideo">
+        <video autoplay muted loop class="video-background" id="video-background">
+            <source src="Accueil/videoInstantL.mp4" type="video/mp4">
+        </video>
+        <div class="play-button" id="play-button">
+            <button id="play">Pause</button>
+        </div>
+    </div>
+
+    <!-- <div class="container"> -->
+
+    <form action="page3sinscrire.html">
+
+        <div class="login">
+            <div class="logo">
+                <img src="Accueil/logo-noir.png" alt="Logo du site" width="165px; height=165px;">
+            </div>
+            
+            <div class="Rubrique">
+                <h4 id="rub">Rubrique préférence</h4>
+                
+                <!-- Espace pour la photo de profile -->
+                <label for="file-upload" class="file-upload-label">
+                    <!-- Icône ou image symbolique pour la photo de profil -->
+                    <img src="Accueil/profileremove.png" alt="Photo de profil" width="90" height="90">
+                    <span class="upload-text">Ajouter ma photo <br> de profil</span>
+                </label>
+                <input id="file-upload" type="file" style="display: none;">
+                <img src="Accueil/photobas.png" alt="Autre image" class="secondary-photo">
+            </div>
+
+        
+
+
+
+
+            <div class="Rubrique">
+                <h4 id="rub">Je suis intéréssé par</h4>
+            </div>
+
+
+            <div class="links">
+                <label for="option">
+                    <input type="checkbox" id="checkbox1"> Restaurants / bar 
+                </label>
+
+                <label for="option">
+                    <input type="checkbox" id="checkbox2"> Tourisme
+                </label>
+
+                <br>
+                
+                <label for="option">
+                    <input type="checkbox" id="checkbox3"> Activités/loisirs
+                </label>
+
+
+                <label for="option">
+                    <input type="checkbox" id="checkbox4"> Last minute
+                </label>
+
+<br>
+                <label for="option">
+                    <input type="checkbox" id="checkboxétape"> Je passe cette étape.
+                </label>
+
+
+            </div>
+
+            <input id="submit" type="submit" value="S’inscrire">
+
+        </div>
+
+        </div>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <!-- </div> -->
+
+    <script src="s'inscrire.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: inter;
+.containervideo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+.play-button .paused {
+    background-color: #CF4A6A; 
+}
+
+
+/* carré milieu */
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    background: rgba(255, 255, 255, 0.551);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    width: 255px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0, 1);
+    z-index: 1;
+}
+
+
+/* logo centre */
+
+.logo{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* POSITION */
+/* CSS pour centrer .boxsinscrire à l'intérieur de la vidéo */
+
+.boxsinscrire {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Centrer le contenu horizontalement */
+    z-index: 1; /* Assurer que le contenu apparaît au-dessus de la vidéo */
+    /* margin-top: 100px; */
+}
+
+
+.h2sinscrire,
+.champs-obligatoires {
+    font-family: 'Inter', sans-serif;
+}
+
+/* changement inscrire */
+.h2sinscrire {
+    font-size: 130%;
+    font-weight: 1000;
+    margin-top: 95px; /* Modifier la valeur pour rapprocher "S’INSCRIRE" du haut */
+}
+
+/* changement champs ob */
+.champs-obligatoires {
+    margin-top: -20px; /* Modifier la valeur pour rapprocher "Champs obligatoires *" du haut */
+    font-size: 55%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ligne */
+.boxsinscrire .input-box {
+    width: 300px;
+    height: 50px;
+    border-bottom: 2px solid black;
+  /* margin-top: -10px; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* .input-box {
+    position: relative;
+    margin-bottom: 15px;
+} */
+
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+    padding: 10px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+/* Réduction de l'éloignement entre les étiquettes et les champs de saisie */
+.input-box label {
+    font-size: 10px; /* Taille de la police ajustée */
+   margin-top: 17px;
+}
+
+
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+
+
+.links{
+    font-size: 50%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+
+
+
+#submit{
+    padding: 5px;
+    font-size: 60%;
+    background-color: white;
+    width: 300px; 
+}
+
+#submit:hover{
+    color: white;
+    background-color: #CF4A6A;
+    border: none;
+}
+
+.retour{
+    margin-top: 70px;
+
+}
+
+.retour a {
+    color: black; /* Changer la couleur du lien en noir */
+    font-size: 10px; /* Changer la taille de la police */
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+
+.retour a:hover {
+    color: #CF4A6A;
 }

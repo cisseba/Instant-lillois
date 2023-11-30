@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="Accueil/I.png" type="image/x-icon">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="s'inscrire.css">
 </head>
+
 <body>
+
+   
     
+    <div class="containervideo">
+        <video autoplay muted loop class="video-background" id="video-background">
+            <source src="Accueil/videoInstantL.mp4" type="video/mp4">
+        </video>
+        <div class="play-button" id="play-button">
+            <button id="play">Pause</button>
+        </div>
+    </div>
+    
+    <div class="container">
+            
+            <div class="login">
+                <div class="logo">
+                    <img src="Accueil/logo-noir.png" alt="Logo du site" width="165px; height=165px;">
+                </div>
+            </div>
+
+
+    <form action="page2sinscrire.html">
+
+            <div class="boxsinscrire">
+                <h2 class="h2sinscrire" style="font-weight: bold;">S’INSCRIRE</h2>
+                <div class="textecentre1">
+                    <p class="champs-obligatoires">Champs obligatoires *</p>
+                </div>
+
+                <div class="login-section">
+
+                    <!-- PSEUDO -->
+                    <div class="input-box">
+                        <input type="text" required>
+                        <label>PSEUDO :</label>
+                    </div>
+                    <!-- email -->
+                    <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelope'></i></span>
+                    <input type="email" required>
+                    <label>E-MAIL * :</label>
+                </div>
+                <!-- MOT DE PASSE -->
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>MOT DE PASSE * :</label>
+                </div>
+            </div>
+            
+            <div class="links">
+                <label for="option">
+                    <input type="checkbox" id="checkbox"> Inscrivez moi par e-mail pour recevoir des mises à jour,
+                    accéder à des offres exclusives <br> et plus encore..
+                </label>
+            </div>
+
+            <input id="submit" type="submit" value="Suivant">
+            <div class="retour">
+                <a id="retour" href="lapageConnexion.html">Retour à se connecter</a>
+            </div>
+        </div>
+    </form>
+
+        
+
+            
+        </div>
+        <script src="s'inscrire.js"></script>
 </body>
+
 </html>

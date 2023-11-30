@@ -274,9 +274,7 @@ flex-direction: column;
     font-weight: 1000; 
 }
 
-.h2seconnecter{
-    font-size: 110%;
-}
+
 
 .textecentre1 p{
     margin-top: -10px;
@@ -329,9 +327,10 @@ flex-direction: column;
     margin-bottom: 5%;
 }
 
+/* case a cocher */
 input[type="checkbox"] {
     justify-content: flex-start;
-    width: 10px; /* Largeur de la case à cocher */
+    width: 10px; /* Largeur de la case a cocher */
     height: 10px; /* Hauteur de la case à cocher */
 }
 
@@ -437,6 +436,8 @@ transition: 0.05s;
     height: 20px;
 }
 
+
+
 /* phrase s'inscrire et mot de passe oublié */
 .box form .links a
 {
@@ -445,6 +446,9 @@ transition: 0.05s;
     color: black;
     /* text-decoration: none; */
 }
+
+
+
 
 /* couleur hover s'inscrire */
 .box form .links a:hover,
