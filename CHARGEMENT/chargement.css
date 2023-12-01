@@ -1,3 +1,76 @@
+/* Ajouter du style pour superposer l'image sur le loader */
+.loader-image-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Placez l'image au-dessus du loader */
+}
+
+.loader-image {
+    display: block;
+    width: 150px; /* Ajustez la largeur de l'image selon vos besoins */
+    height: auto; /* Ajustez la hauteur de l'image selon vos besoins */
+}
+
+/* Le reste du CSS reste inchangé */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loader {
+    border: 20px solid #f3f3f3;
+    border-top: 20px solid #CF4A6A;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.content {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________________________________________________________ */
+
+/* PAGE ACCUEIL  */
+
 /* police */
 @font-face{
     font-family: IBMPmedium;
@@ -18,16 +91,13 @@ body {
     margin: 0;
     padding: 0;}
 
-
-/* header  */
-
+/* Header  */
 header{
-    background-image: url(/Tourisme/photo-tourisme-catégorie.jpg);
+    background-image: url(/Accueil/bande\ \ \(1\).png);
     background-size: cover; /* Pour conserver les proportions de l'image et la faire couvrir l'en-tête */
     background-position: center; /* Pour centrer l'image dans l'en-tête */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
-    height: 300px; 
-    margin-bottom: 50px;
+    height: 500px; 
 }
 
 .headerheader{
@@ -95,17 +165,12 @@ a:hover{
     height: 50px;
 }
 
-#connexion{
-    background: #ffffff;
-    color: #CF4A6A;
-    padding: 2px 10px;
-    border-radius: 20px;
-    position: relative;
-    bottom: 5px;
-    font-family: IBMPbold;
-    width: auto;
-    margin-right: 50px;
-    
+#profile{
+
+width: 50px;
+height: 50px;
+margin-right: 20px;
+
 }
 
 a{
@@ -113,55 +178,122 @@ a{
 }
 
 .e{
-
     background-color: white;
     
 }
 
-/* _______________________________________________________________________________________  */
-/* _______________________________________________________________________________________  */
-/* _______________________________________________________________________________________  */
 
-
-/* titres */
-
-h1{
-
-    text-align: center;
-    color: #CF4A6A;
-    font-family: IBMPbold ;
-
-}
-
-h4{
-    text-align: center;
-    color: black;
-    font-family: IBMPmedium ;
-
-}
-
-/* Affiches  */
-
-.container{
-    background-color: #ffffff;
+.photo-lille{
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    font-family: IBMPmedium;
 }
 
-#affiches{
-    margin-top: 15px;
-    margin-left: 5px;
+#ph1:hover{
+    transform: scale(1.015);
 }
 
-#reserver{
-    color: rgb(255, 255, 255);
+#ph2:hover{
+    transform: scale(1.015);
+}
+
+#ph3:hover{
+    transform: scale(1.015);
+}
+
+#ph4:hover{
+    transform: scale(1.015);
+}
+
+#ph5:hover{
+    transform: scale(1.015);
+}
+
+h2{
+    color: black;
+    margin-left: 48px;
+    font-family: IBMPlight;
+    margin-top: 50px;
+    
+}
+
+.container{
+
+background-size: auto;
+margin-top: 100px;
+margin-right: 50px;
+padding-top: 50px;
+}
+
+.fond2{
+    background-color: #FFFFF3;
+
+}
+
+#marche{
+
+margin-bottom: 50px;
+
+}
+
+#dechirure{
+    width: 100%;
+
+
+}
+
+/* footer */
+
+footer{
     background-color: black;
-    width: 200px;
-    height: 35px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+}
+
+h5{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+   align-items: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
+    color: #CF4A6A;
+}
+
+#MOC {
+    color: #CED0CE;
+}
+
+#MOC:hover {
+    color: #CF4A6A;
 }
 
 /*__________________________________________________________________________________________* 

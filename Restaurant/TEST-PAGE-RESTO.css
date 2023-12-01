@@ -123,14 +123,15 @@ a{
     color: black;
 }
 
-
+.lavie{
+    margin-bottom: ;
+}
 
 .container{
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     font-family: IBMPmedium;
-    margin-bottom: 10px;
 }
 
 .container img{
@@ -150,13 +151,15 @@ a :visited{
     color: black;
 }
 
+
+
 /* image aleatoire  */
 
 
 
 #container2 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -180,14 +183,20 @@ a :visited{
 } */
 
 #changeButton {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #CF4A6A;
-    border-radius: 10px;
-    
-    
+    background-color: #000000;
+    border-radius: 20px;
+    width: 200px; 
+}
+
+#changeButton:hover{
+
+background-color: #CF4A6A;
+font-family: IBMPbold;
+
 }
 
 .changeButton2{
@@ -196,26 +205,54 @@ a :visited{
 }
 
 
+.ppppp{
+
+    background-color: #FFFFF3;
+    margin-top: 60px;
+}
+
 .roulette{
 
-    background: url(/Restaurant/cc.mp4);
+    background-color: #FFFFF3;
     padding-top: 30px;
-    margin-top: 100px;
+    margin-top: 5px;
 
 }
 
 h4{
 
 text-align: center;
+color: #CF4A6A;
 
+
+}
+
+h5{
+    margin-bottom: 50px;
 }
 
 /*__________________________________________________________________________________________* 
 /*__________________________________________________________________________________________*
 /*__________________________________________________________________________________________*
 
+/* Vidéo  */
 
-
+#container7 {
+    /* position: relative; */
+    height: 100vh; /* 100% de la hauteur de la fenêtre */
+    overflow: hidden;
+    margin-top: 200px;
+  }
+  
+  video {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Assure que la vidéo couvre tout le conteneur */
+    
+  }
 
 /* footer */
 footer{
