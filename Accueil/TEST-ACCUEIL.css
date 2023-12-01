@@ -271,7 +271,15 @@ hr {
 }
 
 .logo-container {
+
    align-items: center;
+   
+   
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
 }
 
 #ACC {
