@@ -133,6 +133,16 @@ a{
     margin-bottom: 10px;
 }
 
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: IBMPmedium;
+    margin-bottom: 10px;
+    
+}
+
+/* ligne 1  */
 .container img{
     width: 150px;
 }
@@ -142,6 +152,25 @@ a{
 }
 
 .container a :hover{
+    transform: scale(1.015);
+    color: #CF4A6A;
+}
+
+a :visited{
+    color: black;
+}
+
+/* ligne 2  */
+
+.container2 img{
+    width: 150px;
+}
+.container2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.container2 a :hover{
     transform: scale(1.015);
     color: #CF4A6A;
 }

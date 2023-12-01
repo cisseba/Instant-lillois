@@ -18,11 +18,9 @@ body {
     margin: 0;
     padding: 0;}
 
-
-/* header  */
-
+/* Header  */
 header{
-    background-image: url(/Tourisme/photo-tourisme-catégorie.jpg);
+    background-image: url(/ALEATOIRE/Aventure\ surprise.png);
     background-size: cover; /* Pour conserver les proportions de l'image et la faire couvrir l'en-tête */
     background-position: center; /* Pour centrer l'image dans l'en-tête */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
@@ -118,55 +116,229 @@ a{
     
 }
 
-/* _______________________________________________________________________________________  */
-/* _______________________________________________________________________________________  */
-/* _______________________________________________________________________________________  */
 
-
-/* titres */
-
-h1{
-
+/* ALEATOIRE */
+.monaleatoire {
+    font-family: Arial, sans-serif;
     text-align: center;
-    color: #CF4A6A;
-    font-family: IBMPbold ;
+    padding: 20px;
+}
+
+#showContentButton {
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #CF4A6A;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-bottom: 50px;
 
 }
 
-h4{
-    text-align: center;
-    color: black;
-    font-family: IBMPmedium ;
 
-}
-
-/* Affiches  */
-
-.container{
-    background-color: #ffffff;
+#contentContainer {
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+#contentContainer img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid 5px;
+    border-color: #CF4A6A;
+}
+
+h3{
+
+color: #000000;
+
+}
+
+h2{
+
     text-align: center;
-    font-family: IBMPmedium;
+    margin-top: 20px;
+    color: #CF4A6A;
+
 }
 
-#affiches{
-    margin-top: 15px;
-    margin-left: 5px;
+p{
+
+    text-align: center;
+
 }
 
-#reserver{
-    color: rgb(255, 255, 255);
-    background-color: black;
-    width: 200px;
-    height: 35px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
+
+
+
+
+
+
+
+
+
 
 /*__________________________________________________________________________________________* 
 /*__________________________________________________________________________________________*
 /*__________________________________________________________________________________________*
+
+
+
+
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 100px;
+}
+
+#letextfooter{
+    color: white;
+}
+
+hr {
+    border-color: white;
+  }
+
+.icone a {
+    color: white;
+    font-size: 20px
+}
+
+.ic-blanc {
+    margin: 0 10px;
+}
+
+.ic-blanc:hover {
+    scale: 1.5;
+}
+
+.pays {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo-container {
+   align-items: center;
+}
+
+#ACC {
+    color: #CED0CE;
+}
+
+#ACC:hover {
+    color: #CF4A6A;
+}
+
+#MOC {
+    color: #CED0CE;
+}
+
+#MOC:hover {
+    color: #CF4A6A;
+}
+
+footer {
+    font-family: ibmpmedium;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sommaire {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.sommaire a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* interieur partie droite  */
+
+
+/* reprise de ce que j'ai fait dans la barre de recherche */
+
+
+/* intérieur civilité et contour blanc */
+.civilité {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    /* font-size: 16px;
+    padding-left: 10px; */
+}
+
+option{
+    background-color: transparent;
+    color: black;
+}
+/* intérieur question1 */
+.question1 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+/* intérieur question2 */
+.question2 {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
